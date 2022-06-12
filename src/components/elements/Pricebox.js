@@ -21,10 +21,11 @@ function Pricebox({ priceboxItem }) {
         {price}
         <span>per hour</span>
       </h3>
-      <a target='_blank' href="https://www.upwork.com/freelancers/~011219692ea643aa2f" className="btn btn-default">
+      <a target='_blank' href="mailto:rana028511@gmail.com" className="btn btn-default">
         Get Started
       </a>
     </div>
+    
   );
 }
 

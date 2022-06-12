@@ -10,7 +10,7 @@ const sliderData = [
     userName: "Suresh Gaussian",
     subtitle: "Product designer",
     review:
-      "I am very pleased to work with Alam. He was quick to translate my figma design to react code. I would definetly leverage his skills as I develop my app going forward. 100% recommend 👍",
+      "I am very pleased to work with Masud Rana. He was quick to translate my figma design to react code. I would definetly leverage his skills as I develop my app going forward. 100% recommend 👍",
   },
   {
     id: 2,
@@ -26,7 +26,7 @@ const sliderData = [
     userName: "David",
     subtitle: "CEO of angelsterritory",
     review:
-      "He is awesome MERN stack developer. He made a awesome trading application for me. Alam is real hero 🏅🏅",
+      "He is awesome MERN stack developer. He made a awesome trading application for me. Masud Rana is real hero 🏅🏅",
   },
 ];
 

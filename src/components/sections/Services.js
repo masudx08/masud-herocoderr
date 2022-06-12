@@ -49,7 +49,7 @@ function Services() {
             Looking for a custom job?{" "}
             <a
               className="colorpink pointer"
-             href='https://www.upwork.com/freelancers/~011219692ea643aa2f'
+             href='mailto:rana028511@gmail.com'
              target='_blank'
             >
               Click here

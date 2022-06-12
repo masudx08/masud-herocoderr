@@ -26,7 +26,7 @@ function Herosection(props) {
         <div className="intro">
           <img src="images/avatar-1.svg" alt="Bolby" className="mb-4" />
 
-          <h1 className="mb-2 mt-0">ALAM MIA</h1>
+          <h1 className="mb-2 mt-0">Masud Rana</h1>
           <p>
             I'm a{" "}
             <Typed
@@ -76,7 +76,7 @@ function Herosection(props) {
             <a
               className="btn btn-default"
               target="_blank"
-              href="https://www.upwork.com/freelancers/~011219692ea643aa2f"
+              href="mailto:rana028511@gmail.com"
             >
               Hire me
             </a>

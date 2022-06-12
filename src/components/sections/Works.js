@@ -28,6 +28,7 @@ const allData = [
     title: "Apartment  Hunting Platform",
     category: "mern",
     image: "images/work/apartment-hunt.jpg",
+    link: 'https://apartmenthunt-f6708.web.app/',
     popupLink: ["images/work/apartment-hunt.jpg"],
   },
   {
@@ -35,6 +36,7 @@ const allData = [
     title: "Creative Agency",
     category: "backend",
     image: "images/work/creative-agency.jpg",
+    link: 'https://creative-agency-fullstack.web.app/',
     popupLink: [
       "images/work/creative-agency.jpg",
     ],
@@ -51,6 +53,7 @@ const allData = [
     title: "Doctor's Portal - Appointment Management tool",
     category: "mern",
     image: "images/work/doctor-portal.jpg",
+    link: 'https://doctors-portal-client.web.app/',
     popupLink: [
       "images/work/doctor-portal.jpg",
     ],
