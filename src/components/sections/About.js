@@ -67,7 +67,7 @@ function About() {
         <div className="row" data-aos='fade-up'>
           <div className="col-md-3">
             <div  className="text-center text-md-left">
-              <img src={aboutContent.avatarImage} alt={aboutContent.name} />
+              <img src="images/profile.png" style={{width:'150px', height:'150px'}} alt={aboutContent.name} />
             </div>
             <div className="spacer d-md-none d-lg-none" data-height="30"></div>
           </div>

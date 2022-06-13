@@ -24,13 +24,14 @@ function Herosection(props) {
     >
       <div className="container">
         <div className="intro">
-          <img src="images/avatar-1.svg" alt="Bolby" className="mb-4" />
+          <img src="images/profile.png" style={{width:'108px', height:'108px'}} alt="Bolby" className="mb-4" />
 
           <h1 className="mb-2 mt-0">Masud Rana</h1>
           <p>
             I'm a{" "}
             <Typed
               strings={[
+                "",
                 "Front-End Developer",
                 "Backend Developer",
                 "MERN Stack Developer ",
