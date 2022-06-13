@@ -29,7 +29,7 @@ function Contact() {
       setError(true);
       setMessage("Message is required");
     } else {
-      setError(false);
+      
       emailjs
         .sendForm(
           "service_osejhm2",
@@ -39,13 +39,15 @@ function Contact() {
         )
         .then(
           function (response) {
-            console.log("SUCCESS!", response.status, response.text);
+            setError(false);
+            setMessage("You message has been sent!!!");
           },
           function (error) {
-            console.log("FAILED...", error);
+            setError(true);
+            setMessage("Send Failed! Please contact: rana028511gmail.com");
           }
         );
-      setMessage("You message has been sent!!!");
+      
     }
   };
 
