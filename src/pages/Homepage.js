@@ -48,9 +48,9 @@ function Homepage() {
         {/* <Element name="section-blogs">
           <Blogs />
         </Element> */}
-        {/* <Element name="section-contact">
+        <Element name="section-contact">
           <Contact />
-        </Element> */}
+        </Element>
         <div className="spacer" data-height="96"></div>
       </main>
       <Footer />

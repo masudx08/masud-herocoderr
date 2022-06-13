@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import ScrollAnimation from "react-animate-on-scroll";
 import Pagetitle from "../elements/Pagetitle";
+import emailjs from "@emailjs/browser";
 
 function Contact() {
   const [formdata, setFormdata] = useState({
@@ -29,6 +30,21 @@ function Contact() {
       setMessage("Message is required");
     } else {
       setError(false);
+      emailjs
+        .sendForm(
+          "service_osejhm2",
+          "template_sqbghew",
+          event.target,
+          "user_TYxVz7MCb0S6SyznSkZMf"
+        )
+        .then(
+          function (response) {
+            console.log("SUCCESS!", response.status, response.text);
+          },
+          function (error) {
+            console.log("FAILED...", error);
+          }
+        );
       setMessage("You message has been sent!!!");
     }
   };
@@ -55,9 +71,9 @@ function Contact() {
       <div className="container">
         <Pagetitle title="Get in Touch" />
 
-        <div className="row" data-aos='fade-up'>
+        <div className="row" data-aos="fade-up">
           <div className="col-md-4">
-            <div className="contact-info"  >
+            <div className="contact-info">
               <ScrollAnimation
                 animateIn="fadeInUp"
                 animateOut="fadeInOut"
