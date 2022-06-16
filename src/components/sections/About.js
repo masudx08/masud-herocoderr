@@ -5,10 +5,13 @@ import Pagetitle from "../elements/Pagetitle";
 import Skill from "../elements/Skill";
 
 const aboutContent = {
-  name: "Bolby",
+  name: "Masud Rana",
   avatarImage: "/images/avatar-2.svg",
   content:
-    "I am a professional Frontend Web developer and MERN Stack developer. After 4 years of experience with a company and some teams, I think I am perfect for providing awesome frontend service. I am highly experienced in working with React.",
+    `I am a professional MERN Stack Web developer & React JS Specialist.
+    I am a certified Data Structure and Algorithm expert on Freecodecamp and a problem solver on HackerRank .
+    I have 5 years of web development experience with many projects and 5 different teams. 
+    And also have 2 years of job experience in two different company.`,
 };
 
 const progressData = [
@@ -78,7 +81,7 @@ function About() {
                 <div className="col-md-6">
                   <p>{aboutContent.content}</p>
                   <div className="mt-3">
-                    <a href="mailto:rana028511@gmail.com" className="btn btn-default">
+                    <a target='_blank' href="https://drive.google.com/drive/folders/1reBKPmCwW7oQI6QpqOuDXowX0Pd8aPKB?usp=sharing" className="btn btn-default">
                       View CV
                     </a>
                   </div>
